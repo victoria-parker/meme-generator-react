@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Karla:wght@400;700&display=swap');
+*{
+    box-sizing:border-box;
+    padding: 0;
+    margin: 0;
+}
+.nav-bar{
+    height: 65px;
+    width: 100%;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    font-family: 'Inter', sans-serif;
+    color:#FFF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-bar .logo{
+    font-family: 'Karla', sans-serif;
+    font-size: 20.7482px;
+    line-height: 24px;
+    letter-spacing: -0.1em;
+    color: #FFF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.nav-bar .logo img{
+    width: 31.31px;
+    margin-right: 6.69px;
+}
+main{
+    padding: 36px;
+}
+.form-el{
+    display: grid;
+    grid-template: 40px 40px / 1fr 1fr ;
+    gap:17px;
+}
+.form-el .submit-btn{
+    grid-column: 1 / -1;;
+}
+
+.form-el .form-input{
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #0D0D0D;
+    border-radius: 5px;
+    border:1px solid #D5D4D8;
+    text-indent: 5px;
+}
+.form-el .submit-btn{
+    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+    border-radius: 5px;
+    border: none;
+    color:#fff;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.1em;
+    cursor: pointer;
+}
