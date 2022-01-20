@@ -9,6 +9,7 @@
     width: 100%;
     background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
     font-family: 'Inter', sans-serif;
+    font-size: 0.75rem;
     color:#FFF;
     display: flex;
     flex-direction: row;
@@ -17,7 +18,7 @@
 }
 .nav-bar .logo{
     font-family: 'Karla', sans-serif;
-    font-size: 20.7482px;
+    font-size: 1.25rem;
     line-height: 24px;
     letter-spacing: -0.1em;
     color: #FFF;
